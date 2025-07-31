@@ -8,3 +8,5 @@ export default function NotFound() {
     const reviewsId = pathname.split("/")[4];
     return <h1> Review {reviewsId} Not Found for product {productId}</h1>
 };
+
+// This component is used to display a custom 404 error page for specific pages 
